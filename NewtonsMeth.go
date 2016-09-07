@@ -35,5 +35,5 @@ func main() {
 	fmt.Println(Sqrt(2))
 	x, z := 2.0,1.0
 	fmt.Println( newtM(2.0) )
-	fmt.Println(newtMRec(x,z,z))
+	fmt.Println( newtMRec( x,z,z ) )
 }
